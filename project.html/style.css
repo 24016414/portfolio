@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('pic.jpg');
+    background-size: cover;
+    background-position:center;
+    background-attachment:fixed;
+    background-repeat: no-repeat; 
+    }
+
+nav {
+    background: rgb(15, 15, 150);
+    padding: 20px;
+    text-align: center;
+   }
+
+nav a {
+    color: white;
+    margin: 15px;
+    text-decoration:none;
+   }
+nav a:hover{
+    text-decoration:underline;
+   }
+.container {
+    border-style:outset;
+    border-color:gold;
+    border-width: 2px;;
+    margin:50px;
+    padding:30px;
+    background: linear-gradient(to right, rgb(50, 87, 197), rgb(10, 189, 248));
+    border-radius: 25px;
+   }
+ h1, h2 {
+    color: white;
+    text-align:center;
+    font-family:'Arial', sans-serif; 
+  }
+img {
+    
+    border-radius: 25px;
+     display:block;
+    margin: auto ; 
+    }
+
+.section {
+    margin-bottom: 50px; 
+         }
+
+.about{
+    padding: 20px;
+    border: 1px solid rgb(8, 8, 209);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(8, 8, 209)
+      }
+
+  .projects .project {
+    color:white;
+    padding: 20px;
+    border: 1px solid silver(8, 8, 209);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(8, 8, 209);
+  }
+
+  a {
+    color: rgb(136, 218, 162);
+    text-decoration:none;
+    
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .Quote {
+    font-style: italic;
+    color: silver;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  p {
+    color:white;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    
+  }
